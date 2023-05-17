@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,900;1,900&family=Kavoon&family=Roboto:ital,wght@1,100;1,900&display=swap');
+ 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+   body{
+
+    font-family: 'kavoon',cursive;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+   }
+ 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100vh;
+}
+
+.conteudo h1{
+    width: 530px;
+    text-align: center;
+    line-height: 64px;
+    
+    
+
+}
+
+.conteudo button{
+    width: 354px;
+    height: 77px;
+    background-color: #D48B5C;
+    border-radius: 30px;
+    font-family:'kavoon', cursive ;
+    font-size: 40px ;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+    .conteudo button :hover{
+        background-color: #8b3601;
+        color: aqua;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
